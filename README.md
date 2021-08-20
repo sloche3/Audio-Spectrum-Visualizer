@@ -1,6 +1,5 @@
 # Audio-Spectrum-Visualizer
 
----
 ## Import notes
 - PyAudio is used to receive live audio from the device's default audio input
 - PyQtGraph is used to plot the frequency data, and it also requires PyQt to function.
@@ -17,10 +16,19 @@
   set to 1, and you have to lower output volume to like 2 for stereo mix). I think I need to look into 
   an audio loopback device or something to solve this problem.
 - I'd like to see if there is a way to get rid of the X and Y axis. I don't really care for the 
-  measurements, I just want the visual.
+  measurements, I'm just interested in the visual.
   
 ## Possible future improvements to look into
 - Changing line colors at certain frequencies.
 - I'm not sure if this could even be applied, but maybe add the option to use another shape, like a 
   circle instead of a line.
 - Do something cool with the background (different colors? sound reactive movement? idk).
+
+## Resources
+There were others, but I went through a lot of stuff, and closed a lot of tabs..
+- [PyQtGraph documentation](https://pyqtgraph.readthedocs.io/en/latest/)
+- [PyAudio documentation](https://people.csail.mit.edu/hubert/pyaudio/docs/)
+- [How do music visualizers work?](https://www.reddit.com/r/explainlikeimfive/comments/1l2gof/eli5_how_do_music_visualizers_work/)
+- [Mark Jay (YouTube)](https://www.youtube.com/watch?v=RHmTgapLu4s)
+- [Mark Jay's github project](https://github.com/markjay4k/Audio-Spectrum-Analyzer-in-Python/blob/master/audio_spectrumQT.py)
+- I don't think I ended up using this but, [Plotting with matplotlib example](https://stackoverflow.com/questions/18625085/how-to-plot-a-wav-file)
