@@ -1,4 +1,5 @@
 # Audio-Spectrum-Visualizer
+**NOTE:** This may not work as well on some devices depending on the device's microphone.
 
 ## Import notes
 - PyAudio is used to receive live audio from the device's default audio input
